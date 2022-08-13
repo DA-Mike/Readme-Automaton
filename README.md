@@ -14,9 +14,9 @@ Simply clone the repo and run 'node index.js' in the bash console.
 
 This is node.js, so the user must go to the directory where index.js resides. From there the user can call index.js and simply follow the prompts to generate their README.md file.
 
-![Video #1](https://youtu.be/yWmo3EN60iQ)
+[![Video #1](https://img.youtube.com/vi/yWmo3EN60iQ/0.jpg)](https://youtu.be/yWmo3EN60iQ)
 
-![Video #2](https://youtu.be/qwj6Gi6BXFI)
+[![Video #2](https://img.youtube.com/vi/qwj6Gi6BXFI/0.jpg)](https://youtu.be/qwj6Gi6BXFI)
 
 ## Contributing
 ### How to Contribute:
