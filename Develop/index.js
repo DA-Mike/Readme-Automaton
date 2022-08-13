@@ -16,7 +16,7 @@ const questions = [{
 },
 {
     type: 'input',
-    message: "Please enter a table of contents for the README:",
+    message: "Would you like a table of contents for the README (Y/N)?",
     name: 'contents',
 },
 {
@@ -39,15 +39,26 @@ const questions = [{
     message: "Please provide test instructions:",
     name: 'test',
 },
+{
+    type: 'input',
+    message: "Please provide contact information in case anyone has questions:",
+    name: 'contact',
+},
+{
+    type: 'input',
+    message: "What is your GitHub username?",
+    name: 'github',
+},
 {   type:'list',
     message: 'Which license would you like for your project?',
     name: 'license',
-    choices: ['Apache License 2.0',
+    choices: [
+        'Apache License 2.0',
         'BSD 3',
         'BSD 2',
         'GPL',
         'LGPL',
-        'MIT license',
+        'MIT',
         'Mozilla Public License 2.0',
         'ISC',
         'Eclipse Public License v2.0',
@@ -58,7 +69,7 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.appendFile(fileName, data, (err) => 
+    fs.writeFile(fileName, data, (err) => 
     err? console.error(err) : console.log('Success!'));
 }
 
