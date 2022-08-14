@@ -41,7 +41,7 @@ const questions = [{
 },
 {
     type: 'input',
-    message: "Please provide contact information in case anyone has questions:",
+    message: "Please provide an email address in case any users would like to contact you:",
     name: 'contact',
 },
 {
