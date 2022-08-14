@@ -16,7 +16,7 @@ const questions = [{
 },
 {
     type: 'input',
-    message: "Would you like a table of contents for the README (Y/N)?",
+    message: "Would you like a TABLE OF CONTENTS for the README (Y/N)?",
     name: 'contents',
 },
 {
